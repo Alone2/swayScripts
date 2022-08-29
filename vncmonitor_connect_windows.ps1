@@ -2,7 +2,7 @@
 #################################################################
 # Connects to a dummy monitor with sway via VNC.
 # The connection is established via a jumphost and SSH tunneling.
-# (This script only exists so I can use Linux the PCs at my School).
+# (This script only exists so I can use Linux on the PCs at my School).
 #################################################################
 # Dependencies: 
 #   tigervnc (vncviewer in PATH)
