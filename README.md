@@ -1,16 +1,5 @@
 # swayScripts
 
-bindsym --release Shift+Print exec 'filename=$(date +screenshot-%Y-%m-%d-%H%M%S%N.png) && mkdir -p ~/Pictures/screenshots && grim -g "$(slurp)" ~/Pictures/screenshots/$filename && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/$filename && notify-send -i $HOME/Pictures/screenshots/$filename -u low "Screenshot" "saved as ~/Pictures/screenshots/$filename" -t 700 ' 
-
-
-filename=$(
-    date +screenshot-%Y-%m-%d-%H%M%S%N.png
-) 
-mkdir -p ~/Pictures/screenshots 
-grim ~/Pictures/screenshots/$filename 
-xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/$filename 
-notify-send -i $HOME/Pictures/screenshots/$filename -u low "screenshot" "saved as ~/Pictures/screenshots/$filename" -t 700 
-
 ## Screenshot sway shortcuts
 
 ```
