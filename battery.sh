@@ -5,7 +5,7 @@
 # Show the % of battery remaining.
 #################################################################
 # Dependencies: 
-#   upower
+#   upower ttf-font-awesome
 #################################################################
 
 # Get battery %
